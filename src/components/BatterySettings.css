@@ -1,0 +1,86 @@
+.battery-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.battery-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.battery-input-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.battery-input {
+  width: 80px;
+  padding: 8px 10px;
+  padding-left: 10px;
+  text-align: center;
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  transition: border-color var(--transition);
+}
+
+.battery-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.battery-input.input-error {
+  border-color: var(--color-danger);
+}
+
+.input-suffix {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.error-text {
+  color: var(--color-danger);
+  font-size: 0.75rem;
+}
+
+.battery-bar {
+  width: 100%;
+  height: 6px;
+  background: var(--color-bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.battery-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.current-fill {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-primary-light));
+}
+
+.reserve-fill {
+  background: linear-gradient(90deg, var(--color-warning), #ffb74d);
+}
+
+.search-fill {
+  background: linear-gradient(90deg, var(--color-info), #64b5f6);
+}
+
+/* Remove spinner arrows from number inputs */
+.battery-input::-webkit-outer-spin-button,
+.battery-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.battery-input[type='number'] {
+  -moz-appearance: textfield;
+}

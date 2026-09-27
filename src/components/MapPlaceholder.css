@@ -1,0 +1,51 @@
+.map-placeholder {
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.map-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+
+.map-content h3 {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.map-content p {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.map-grid {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  opacity: 0.06;
+}
+
+.grid-cell {
+  border: 1px solid var(--color-text-secondary);
+}
+
+@media (max-width: 960px) {
+  .map-placeholder {
+    min-height: 350px;
+  }
+}

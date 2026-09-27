@@ -1,0 +1,165 @@
+vehicle_id,vehicle_type,brand,model,battery_kwh,range_km,efficiency_km_per_kwh,data_status
+1,Car,Tata,Tiago EV 19.2,19.2,221,11.51,Publicly reported/OEM-claimed figure; verify exact variant
+2,Car,Tata,Tiago EV 24,24.0,275,11.46,Publicly reported/OEM-claimed figure; verify exact variant
+3,Car,Tata,Tigor EV,26.0,315,12.12,Publicly reported/OEM-claimed figure; verify exact variant
+4,Car,Tata,Punch EV 30,30.0,315,10.5,Publicly reported/OEM-claimed figure; verify exact variant
+5,Car,Tata,Punch EV 40,40.0,421,10.52,Publicly reported/OEM-claimed figure; verify exact variant
+6,Car,Tata,Nexon EV 30,30.0,275,9.17,Publicly reported/OEM-claimed figure; verify exact variant
+7,Car,Tata,Nexon EV 40.5,40.5,390,9.63,Publicly reported/OEM-claimed figure; verify exact variant
+8,Car,Tata,Nexon EV 45,45.0,489,10.87,Publicly reported/OEM-claimed figure; verify exact variant
+9,Car,Tata,Curvv EV 45,45.0,430,9.56,Publicly reported/OEM-claimed figure; verify exact variant
+10,Car,Tata,Curvv EV 55,55.0,502,9.13,Publicly reported/OEM-claimed figure; verify exact variant
+11,Car,Tata,Harrier EV 65 RWD,65.0,538,8.28,Publicly reported/OEM-claimed figure; verify exact variant
+12,Car,Tata,Harrier EV 75 RWD,75.0,627,8.36,Publicly reported/OEM-claimed figure; verify exact variant
+13,Car,Tata,Harrier EV 75 QWD,75.0,622,8.29,Publicly reported/OEM-claimed figure; verify exact variant
+14,Car,Tata,Sierra EV 63,63.0,535,8.49,Publicly reported/OEM-claimed figure; verify exact variant
+15,Car,Tata,Sierra EV 75,75.0,665,8.87,Publicly reported/OEM-claimed figure; verify exact variant
+16,Car,MG,Comet EV,17.3,230,13.29,Publicly reported/OEM-claimed figure; verify exact variant
+17,Car,MG,Windsor EV,38.0,331,8.71,Publicly reported/OEM-claimed figure; verify exact variant
+18,Car,MG,Windsor EV Pro,52.9,449,8.49,Publicly reported/OEM-claimed figure; verify exact variant
+19,Car,MG,ZS EV,50.3,461,9.17,Publicly reported/OEM-claimed figure; verify exact variant
+20,Car,Hyundai,Creta Electric 42,42.0,390,9.29,Publicly reported/OEM-claimed figure; verify exact variant
+21,Car,Hyundai,Creta Electric 51.4,51.4,473,9.2,Publicly reported/OEM-claimed figure; verify exact variant
+22,Car,Hyundai,Ioniq 5,84.0,570,6.79,Publicly reported/OEM-claimed figure; verify exact variant
+23,Car,Mahindra,XUV400 34.5,34.5,375,10.87,Publicly reported/OEM-claimed figure; verify exact variant
+24,Car,Mahindra,XUV400 39.4,39.4,456,11.57,Publicly reported/OEM-claimed figure; verify exact variant
+25,Car,Mahindra,BE 6 59,59.0,556,9.42,Publicly reported/OEM-claimed figure; verify exact variant
+26,Car,Mahindra,BE 6 79,79.0,683,8.65,Publicly reported/OEM-claimed figure; verify exact variant
+27,Car,Mahindra,XEV 9e 59,59.0,542,9.19,Publicly reported/OEM-claimed figure; verify exact variant
+28,Car,Mahindra,XEV 9e 79,79.0,656,8.3,Publicly reported/OEM-claimed figure; verify exact variant
+29,Car,Citroen,eC3,29.2,320,10.96,Publicly reported/OEM-claimed figure; verify exact variant
+30,Car,Citroen,eC3 Aircross,29.2,300,10.27,Publicly reported/OEM-claimed figure; verify exact variant
+31,Car,BYD,Atto 3,60.48,521,8.61,Publicly reported/OEM-claimed figure; verify exact variant
+32,Car,BYD,Atto 3 Premium,60.48,521,8.61,Publicly reported/OEM-claimed figure; verify exact variant
+33,Car,BYD,Seal 61.44,61.44,510,8.3,Publicly reported/OEM-claimed figure; verify exact variant
+34,Car,BYD,Seal 82.56,82.56,650,7.87,Publicly reported/OEM-claimed figure; verify exact variant
+35,Car,BYD,eMAX 7 55.4,55.4,420,7.58,Publicly reported/OEM-claimed figure; verify exact variant
+36,Car,Kia,EV6,84.0,663,7.89,Publicly reported/OEM-claimed figure; verify exact variant
+37,Car,Kia,EV9,99.8,561,5.62,Publicly reported/OEM-claimed figure; verify exact variant
+38,Car,BMW,i4,83.9,590,7.03,Publicly reported/OEM-claimed figure; verify exact variant
+39,Car,BMW,iX,71.0,425,5.99,Publicly reported/OEM-claimed figure; verify exact variant
+40,Car,BMW,i7,101.7,560,5.51,Publicly reported/OEM-claimed figure; verify exact variant
+41,Car,BMW,i5,83.9,516,6.15,Publicly reported/OEM-claimed figure; verify exact variant
+42,Car,Mercedes-Benz,EQS 580,107.8,857,7.95,Publicly reported/OEM-claimed figure; verify exact variant
+43,Car,Mercedes-Benz,EQE 500,90.56,550,6.07,Publicly reported/OEM-claimed figure; verify exact variant
+44,Car,Mercedes-Benz,EQA 250+,70.5,497,7.05,Publicly reported/OEM-claimed figure; verify exact variant
+45,Car,Volvo,XC40 Recharge,78.0,505,6.47,Publicly reported/OEM-claimed figure; verify exact variant
+46,Car,Volvo,C40 Recharge,78.0,530,6.79,Publicly reported/OEM-claimed figure; verify exact variant
+47,Car,Volvo,EX30,69.0,480,6.96,Publicly reported/OEM-claimed figure; verify exact variant
+48,Car,Jaguar,I-Pace,90.0,470,5.22,Publicly reported/OEM-claimed figure; verify exact variant
+49,Car,Audi,Q4 e-tron,82.0,520,6.34,Publicly reported/OEM-claimed figure; verify exact variant
+50,Car,Audi,Q8 e-tron,114.0,582,5.11,Publicly reported/OEM-claimed figure; verify exact variant
+51,Car,Audi,e-tron GT,93.4,500,5.35,Publicly reported/OEM-claimed figure; verify exact variant
+52,Scooter,Ather,450S 2.9,2.9,122,42.07,Publicly reported/OEM-claimed figure; verify exact variant
+53,Scooter,Ather,450X 2.9,2.9,126,43.45,Publicly reported/OEM-claimed figure; verify exact variant
+54,Scooter,Ather,450X 3.7,3.7,161,43.51,Publicly reported/OEM-claimed figure; verify exact variant
+55,Scooter,Ather,450 Apex,3.7,157,42.43,Publicly reported/OEM-claimed figure; verify exact variant
+56,Scooter,Ather,Rizta 2.9,2.9,123,42.41,Publicly reported/OEM-claimed figure; verify exact variant
+57,Scooter,Ather,Rizta 3.7,3.7,159,42.97,Publicly reported/OEM-claimed figure; verify exact variant
+58,Scooter,TVS,iQube 2.2,2.2,94,42.73,Publicly reported/OEM-claimed figure; verify exact variant
+59,Scooter,TVS,iQube 2.3,2.3,114,49.57,Publicly reported/OEM-claimed figure; verify exact variant
+60,Scooter,TVS,iQube 3.1,3.1,123,39.68,Publicly reported/OEM-claimed figure; verify exact variant
+61,Scooter,TVS,iQube 3.5,3.5,145,41.43,Publicly reported/OEM-claimed figure; verify exact variant
+62,Scooter,TVS,iQube ST 5.3,5.3,212,40.0,Publicly reported/OEM-claimed figure; verify exact variant
+63,Scooter,TVS,X,4.44,140,31.53,Publicly reported/OEM-claimed figure; verify exact variant
+64,Scooter,Ola,S1 X 2,2.0,108,54.0,Publicly reported/OEM-claimed figure; verify exact variant
+65,Scooter,Ola,S1 X 3,3.0,176,58.67,Publicly reported/OEM-claimed figure; verify exact variant
+66,Scooter,Ola,S1 X 4,4.0,242,60.5,Publicly reported/OEM-claimed figure; verify exact variant
+67,Scooter,Ola,S1 Pro 3,3.0,176,58.67,Publicly reported/OEM-claimed figure; verify exact variant
+68,Scooter,Ola,S1 Pro 4,4.0,242,60.5,Publicly reported/OEM-claimed figure; verify exact variant
+69,Scooter,Ola,S1 Pro+ 4,4.0,242,60.5,Publicly reported/OEM-claimed figure; verify exact variant
+70,Scooter,Ola,S1 Pro+ 5.2,5.2,320,61.54,Publicly reported/OEM-claimed figure; verify exact variant
+71,Scooter,Bajaj,Chetak 3001,3.0,127,42.33,Publicly reported/OEM-claimed figure; verify exact variant
+72,Scooter,Bajaj,Chetak 3501,3.5,153,43.71,Publicly reported/OEM-claimed figure; verify exact variant
+73,Scooter,Bajaj,Chetak 3502,3.5,153,43.71,Publicly reported/OEM-claimed figure; verify exact variant
+74,Scooter,Hero Vida,V2 Lite,2.2,94,42.73,Publicly reported/OEM-claimed figure; verify exact variant
+75,Scooter,Hero Vida,V2 Plus,3.4,143,42.06,Publicly reported/OEM-claimed figure; verify exact variant
+76,Scooter,Hero Vida,V2 Pro,3.9,165,42.31,Publicly reported/OEM-claimed figure; verify exact variant
+77,Scooter,Hero Vida,VX2 Go 2.2,2.2,92,41.82,Publicly reported/OEM-claimed figure; verify exact variant
+78,Scooter,Hero Vida,VX2 Go 3.4,3.4,142,41.76,Publicly reported/OEM-claimed figure; verify exact variant
+79,Scooter,Ampere,Magnus Neo,2.3,95,41.3,Publicly reported/OEM-claimed figure; verify exact variant
+80,Scooter,Ampere,Magnus Grand,2.3,80,34.78,Publicly reported/OEM-claimed figure; verify exact variant
+81,Scooter,Ampere,Nexus EX,3.0,136,45.33,Publicly reported/OEM-claimed figure; verify exact variant
+82,Scooter,Ampere,Nexus ST,4.0,136,34.0,Publicly reported/OEM-claimed figure; verify exact variant
+83,Scooter,River,Indie,4.0,161,40.25,Publicly reported/OEM-claimed figure; verify exact variant
+84,Scooter,Simple Energy,One,5.0,248,49.6,Publicly reported/OEM-claimed figure; verify exact variant
+85,Scooter,Ultraviolette,Tesseract 3.5,3.5,162,46.29,Publicly reported/OEM-claimed figure; verify exact variant
+86,Scooter,Ultraviolette,Tesseract 5,5.0,220,44.0,Publicly reported/OEM-claimed figure; verify exact variant
+87,Scooter,Ultraviolette,Tesseract 6,6.0,261,43.5,Publicly reported/OEM-claimed figure; verify exact variant
+88,Scooter,Okinawa,Praise Pro,2.0,81,40.5,Publicly reported/OEM-claimed figure; verify exact variant
+89,Scooter,Okinawa,Ridge+,1.75,84,48.0,Publicly reported/OEM-claimed figure; verify exact variant
+90,Scooter,Okinawa,iPraise+,3.3,137,41.52,Publicly reported/OEM-claimed figure; verify exact variant
+91,Scooter,Greaves Electric,Ampere Primus,3.0,107,35.67,Publicly reported/OEM-claimed figure; verify exact variant
+92,Scooter,Bounce Infinity,E1X,2.2,85,38.64,Publicly reported/OEM-claimed figure; verify exact variant
+93,Scooter,Bounce Infinity,E1+,3.0,85,28.33,Publicly reported/OEM-claimed figure; verify exact variant
+94,Scooter,BGauss,C12i,2.5,85,34.0,Publicly reported/OEM-claimed figure; verify exact variant
+95,Scooter,BGauss,RUV350,3.5,145,41.43,Publicly reported/OEM-claimed figure; verify exact variant
+96,Bike,Revolt,RV1,2.2,100,45.45,Publicly reported/OEM-claimed figure; verify exact variant
+97,Bike,Revolt,RV1+,3.24,160,49.38,Publicly reported/OEM-claimed figure; verify exact variant
+98,Bike,Revolt,RV400,3.24,150,46.3,Publicly reported/OEM-claimed figure; verify exact variant
+99,Bike,Tork,Kratos R,4.0,180,45.0,Publicly reported/OEM-claimed figure; verify exact variant
+100,Bike,Oben,Rorr,4.4,187,42.5,Publicly reported/OEM-claimed figure; verify exact variant
+101,Bike,Oben,Rorr EZ 3.4,3.4,175,51.47,Publicly reported/OEM-claimed figure; verify exact variant
+102,Bike,Oben,Rorr EZ 4.4,4.4,175,39.77,Publicly reported/OEM-claimed figure; verify exact variant
+103,Bike,Matter,Aera 5000,5.0,125,25.0,Publicly reported/OEM-claimed figure; verify exact variant
+104,Bike,Ultraviolette,F77 Mach 2,10.3,323,31.36,Publicly reported/OEM-claimed figure; verify exact variant
+105,Bike,Ultraviolette,F77 SuperStreet,10.3,323,31.36,Publicly reported/OEM-claimed figure; verify exact variant
+106,Bike,Raptee,T30,5.4,200,37.04,Publicly reported/OEM-claimed figure; verify exact variant
+107,Bike,Komaki,Ranger,4.0,200,50.0,Publicly reported/OEM-claimed figure; verify exact variant
+108,Bike,Komaki,SE,2.3,180,78.26,Publicly reported/OEM-claimed figure; verify exact variant
+109,Bike,Komaki,Flora,3.0,100,33.33,Publicly reported/OEM-claimed figure; verify exact variant
+110,Bike,Joy e-bike,Monster,2.4,95,39.58,Publicly reported/OEM-claimed figure; verify exact variant
+111,Bike,Joy e-bike,Beast,3.3,110,33.33,Publicly reported/OEM-claimed figure; verify exact variant
+112,3W Passenger,Mahindra,Treo,7.37,141,19.13,Publicly reported/OEM-claimed figure; verify exact variant
+113,3W Passenger,Mahindra,Treo HRT,7.37,141,19.13,Publicly reported/OEM-claimed figure; verify exact variant
+114,3W Passenger,Mahindra,Treo SFT,7.37,141,19.13,Publicly reported/OEM-claimed figure; verify exact variant
+115,3W Passenger,Mahindra,Treo Yaari HRT,4.5,129,28.67,Publicly reported/OEM-claimed figure; verify exact variant
+116,3W Passenger,Mahindra,Treo Yaari SFT,4.5,129,28.67,Publicly reported/OEM-claimed figure; verify exact variant
+117,3W Passenger,Mahindra,e-Alfa Plus,7.37,100,13.57,Publicly reported/OEM-claimed figure; verify exact variant
+118,3W Passenger,Bajaj,RE E-TEC 9.0,8.9,178,20.0,Publicly reported/OEM-claimed figure; verify exact variant
+119,3W Passenger,Bajaj,RE E-TEC 12.0,11.8,200,16.95,Publicly reported/OEM-claimed figure; verify exact variant
+120,3W Passenger,Piaggio,Ape E-City,7.5,110,14.67,Publicly reported/OEM-claimed figure; verify exact variant
+121,3W Passenger,Piaggio,Ape E-City FX Max,10.24,145,14.16,Publicly reported/OEM-claimed figure; verify exact variant
+122,3W Passenger,TVS,King EV Max,9.2,179,19.46,Publicly reported/OEM-claimed figure; verify exact variant
+123,3W Passenger,Atul Auto,Gemini,8.6,110,12.79,Publicly reported/OEM-claimed figure; verify exact variant
+124,3W Passenger,Atul Auto,Gem Cargo,8.6,110,12.79,Publicly reported/OEM-claimed figure; verify exact variant
+125,3W Passenger,Kinetic Green,Safar Smart,8.2,130,15.85,Publicly reported/OEM-claimed figure; verify exact variant
+126,3W Passenger,Kinetic Green,Safar Jumbo,8.2,110,13.41,Publicly reported/OEM-claimed figure; verify exact variant
+127,3W Passenger,Omega Seiki,Rage+,10.8,100,9.26,Publicly reported/OEM-claimed figure; verify exact variant
+128,3W Passenger,YC Electric,E-Rickshaw,7.5,100,13.33,Indicative public figure; verify with OEM before production
+129,3W Passenger,Saera Electric,Monarch,7.5,100,13.33,Indicative public figure; verify with OEM before production
+130,3W Passenger,Dilli Electric,E-Auto,7.5,100,13.33,Indicative public figure; verify with OEM before production
+131,3W Passenger,Lohia Auto,Comfort,7.5,100,13.33,Indicative public figure; verify with OEM before production
+132,3W Passenger,Euler,HiLoad EV,12.4,170,13.71,Publicly reported/OEM-claimed figure; verify exact variant
+133,3W Passenger,Altigreen,neEV Tez,15.0,98,6.53,Publicly reported/OEM-claimed figure; verify exact variant
+134,3W Cargo,Mahindra,Treo Zor,7.37,80,10.85,Publicly reported/OEM-claimed figure; verify exact variant
+135,3W Cargo,Mahindra,Zor Grand,10.24,90,8.79,Publicly reported/OEM-claimed figure; verify exact variant
+136,3W Cargo,Mahindra,Zor Grand DV,10.24,90,8.79,Publicly reported/OEM-claimed figure; verify exact variant
+137,3W Cargo,Mahindra,Zor Grand DV Plus,10.24,90,8.79,Publicly reported/OEM-claimed figure; verify exact variant
+138,3W Cargo,Piaggio,Ape E-Xtra,8.0,115,14.38,Publicly reported/OEM-claimed figure; verify exact variant
+139,3W Cargo,Piaggio,Ape E-Xtra FX,10.24,115,11.23,Publicly reported/OEM-claimed figure; verify exact variant
+140,3W Cargo,Euler,HiLoad EV,12.4,170,13.71,Publicly reported/OEM-claimed figure; verify exact variant
+141,3W Cargo,Omega Seiki,Rage+ Frost,10.8,100,9.26,Publicly reported/OEM-claimed figure; verify exact variant
+142,3W Cargo,Omega Seiki,Stream City,15.0,212,14.13,Publicly reported/OEM-claimed figure; verify exact variant
+143,3W Cargo,Altigreen,neEV Tez,15.0,98,6.53,Publicly reported/OEM-claimed figure; verify exact variant
+144,3W Cargo,Kinetic Green,Safar Jumbo,8.2,110,13.41,Publicly reported/OEM-claimed figure; verify exact variant
+145,3W Cargo,Atul Auto,Gem Cargo,8.6,110,12.79,Publicly reported/OEM-claimed figure; verify exact variant
+146,LCV,Tata,Ace EV,21.3,154,7.23,Publicly reported/OEM-claimed figure; verify exact variant
+147,LCV,Tata,Ace EV 1000,21.3,161,7.56,Publicly reported/OEM-claimed figure; verify exact variant
+148,LCV,Tata,Ace Pro EV,14.4,150,10.42,Publicly reported/OEM-claimed figure; verify exact variant
+149,LCV,Tata,Intra EV Pickup,28.2,150,5.32,Publicly reported/OEM-claimed figure; verify exact variant
+150,LCV,Mahindra,ZEO,21.3,160,7.51,Manufacturer-reported real-world figure
+151,LCV,Euler,Storm EV,29.4,200,6.8,Publicly reported/OEM-claimed figure; verify exact variant
+152,LCV,Switch,IeV4,40.0,200,5.0,Publicly reported/OEM-claimed figure; verify exact variant
+153,LCV,Switch,IeV5,59.6,250,4.19,Publicly reported/OEM-claimed figure; verify exact variant
+154,LCV,Tata,Ultra T.7 Electric,186.0,150,0.81,Publicly reported/OEM-claimed figure; verify exact variant
+155,Bus,Tata,Starbus EV 9m,250.0,200,0.8,Indicative public figure; verify with OEM before production
+156,Bus,Tata,Starbus EV 12m,186.0,250,1.34,Indicative public figure; verify with OEM before production
+157,Bus,Olectra,C9,216.0,200,0.93,Indicative public figure; verify with OEM before production
+158,Bus,Olectra,C10,216.0,250,1.16,Indicative public figure; verify with OEM before production
+159,Bus,JBM,ECOLIFE,324.0,250,0.77,Indicative public figure; verify with OEM before production
+160,Bus,JBM,GALAXY,324.0,300,0.93,Indicative public figure; verify with OEM before production
+161,Bus,Ashok Leyland,Circuit-S,160.0,120,0.75,Indicative public figure; verify with OEM before production
+162,Bus,Switch Mobility,EiV 12,231.0,250,1.08,Indicative public figure; verify with OEM before production
+163,Bus,Switch Mobility,EiV 9,231.0,200,0.87,Indicative public figure; verify with OEM before production
+164,Bus,PMI,e-bus 9m,250.0,200,0.8,Indicative public figure; verify with OEM before production
