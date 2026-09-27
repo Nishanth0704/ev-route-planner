@@ -21,32 +21,62 @@ export const MAP_CONFIG = {
 
 // Built-in dictionary of common cities for instant lookup
 const COMMON_LOCATIONS = {
+  // South India / Tamil Nadu / Karnataka / Kerala / AP / Telangana
   bangalore: { lat: 12.9716, lon: 77.5946, name: 'Bengaluru, Karnataka' },
   bengaluru: { lat: 12.9716, lon: 77.5946, name: 'Bengaluru, Karnataka' },
   mysore: { lat: 12.2958, lon: 76.6394, name: 'Mysuru, Karnataka' },
   mysuru: { lat: 12.2958, lon: 76.6394, name: 'Mysuru, Karnataka' },
   chennai: { lat: 13.0827, lon: 80.2707, name: 'Chennai, Tamil Nadu' },
+  coimbatore: { lat: 11.0168, lon: 76.9558, name: 'Coimbatore, Tamil Nadu' },
+  erode: { lat: 11.3410, lon: 77.7172, name: 'Erode, Tamil Nadu' },
+  salem: { lat: 11.6643, lon: 78.1460, name: 'Salem, Tamil Nadu' },
+  tiruppur: { lat: 11.1085, lon: 77.3411, name: 'Tiruppur, Tamil Nadu' },
+  trichy: { lat: 10.7905, lon: 78.7047, name: 'Tiruchirappalli, Tamil Nadu' },
+  tiruchirappalli: { lat: 10.7905, lon: 78.7047, name: 'Tiruchirappalli, Tamil Nadu' },
+  madurai: { lat: 9.9252, lon: 78.1198, name: 'Madurai, Tamil Nadu' },
+  vellore: { lat: 12.9165, lon: 79.1325, name: 'Vellore, Tamil Nadu' },
+  hosur: { lat: 12.7409, lon: 77.8253, name: 'Hosur, Tamil Nadu' },
+  tirunelveli: { lat: 8.7139, lon: 77.7567, name: 'Tirunelveli, Tamil Nadu' },
+  thanjavur: { lat: 10.7870, lon: 79.1378, name: 'Thanjavur, Tamil Nadu' },
+  dindigul: { lat: 10.3673, lon: 77.9803, name: 'Dindigul, Tamil Nadu' },
+  kanyakumari: { lat: 8.0883, lon: 77.5385, name: 'Kanyakumari, Tamil Nadu' },
+  tuticorin: { lat: 8.7642, lon: 78.1348, name: 'Thoothukudi, Tamil Nadu' },
+  thoothukudi: { lat: 8.7642, lon: 78.1348, name: 'Thoothukudi, Tamil Nadu' },
+  pondicherry: { lat: 11.9416, lon: 79.8083, name: 'Puducherry' },
+  puducherry: { lat: 11.9416, lon: 79.8083, name: 'Puducherry' },
+  kochi: { lat: 9.9312, lon: 76.2673, name: 'Kochi, Kerala' },
+  thiruvananthapuram: { lat: 8.5241, lon: 76.9366, name: 'Thiruvananthapuram, Kerala' },
+  calicut: { lat: 11.2588, lon: 75.7804, name: 'Kozhikode, Kerala' },
+  kozhikode: { lat: 11.2588, lon: 75.7804, name: 'Kozhikode, Kerala' },
+  thrissur: { lat: 10.5276, lon: 76.2144, name: 'Thrissur, Kerala' },
+  kannur: { lat: 11.8745, lon: 75.3704, name: 'Kannur, Kerala' },
+  mangalore: { lat: 12.9141, lon: 74.8560, name: 'Mangaluru, Karnataka' },
+  mangaluru: { lat: 12.9141, lon: 74.8560, name: 'Mangaluru, Karnataka' },
+  hubli: { lat: 15.3647, lon: 75.1240, name: 'Hubballi, Karnataka' },
+  hubballi: { lat: 15.3647, lon: 75.1240, name: 'Hubballi, Karnataka' },
+  belgaum: { lat: 15.8497, lon: 74.4977, name: 'Belagavi, Karnataka' },
+  belagavi: { lat: 15.8497, lon: 74.4977, name: 'Belagavi, Karnataka' },
+  hyderabad: { lat: 17.385, lon: 78.4867, name: 'Hyderabad, Telangana' },
+  warangal: { lat: 17.9689, lon: 79.5941, name: 'Warangal, Telangana' },
+  visakhapatnam: { lat: 17.6868, lon: 83.2185, name: 'Visakhapatnam, Andhra Pradesh' },
+  vijayawada: { lat: 16.5062, lon: 80.6480, name: 'Vijayawada, Andhra Pradesh' },
+  // Major Metros & National Hubs
   mumbai: { lat: 19.076, lon: 72.8777, name: 'Mumbai, Maharashtra' },
   pune: { lat: 18.5204, lon: 73.8567, name: 'Pune, Maharashtra' },
-  hyderabad: { lat: 17.385, lon: 78.4867, name: 'Hyderabad, Telangana' },
+  nagpur: { lat: 21.1458, lon: 79.0882, name: 'Nagpur, Maharashtra' },
   delhi: { lat: 28.6139, lon: 77.209, name: 'New Delhi, Delhi' },
   'new delhi': { lat: 28.6139, lon: 77.209, name: 'New Delhi, Delhi' },
   jaipur: { lat: 26.9124, lon: 75.7873, name: 'Jaipur, Rajasthan' },
   ahmedabad: { lat: 23.0225, lon: 72.5714, name: 'Ahmedabad, Gujarat' },
+  surat: { lat: 21.1702, lon: 72.8311, name: 'Surat, Gujarat' },
+  vadodara: { lat: 22.3072, lon: 73.1812, name: 'Vadodara, Gujarat' },
   kolkata: { lat: 22.5726, lon: 88.3639, name: 'Kolkata, West Bengal' },
-  kochi: { lat: 9.9312, lon: 76.2673, name: 'Kochi, Kerala' },
-  coimbatore: { lat: 11.0168, lon: 76.9558, name: 'Coimbatore, Tamil Nadu' },
   goa: { lat: 15.2993, lon: 74.124, name: 'Panaji, Goa' },
   chandigarh: { lat: 30.7333, lon: 76.7794, name: 'Chandigarh' },
   lucknow: { lat: 26.8467, lon: 80.9462, name: 'Lucknow, Uttar Pradesh' },
-  surat: { lat: 21.1702, lon: 72.8311, name: 'Surat, Gujarat' },
-  nagpur: { lat: 21.1458, lon: 79.0882, name: 'Nagpur, Maharashtra' },
   indore: { lat: 22.7196, lon: 75.8577, name: 'Indore, Madhya Pradesh' },
   bhopal: { lat: 23.2599, lon: 77.4126, name: 'Bhopal, Madhya Pradesh' },
   patna: { lat: 25.5941, lon: 85.1376, name: 'Patna, Bihar' },
-  vadodara: { lat: 22.3072, lon: 73.1812, name: 'Vadodara, Gujarat' },
-  visakhapatnam: { lat: 17.6868, lon: 83.2185, name: 'Visakhapatnam, Andhra Pradesh' },
-  thiruvananthapuram: { lat: 8.5241, lon: 76.9366, name: 'Thiruvananthapuram, Kerala' },
   // International hubs
   'new york': { lat: 40.7128, lon: -74.006, name: 'New York, USA' },
   boston: { lat: 42.3601, lon: -71.0589, name: 'Boston, USA' },
@@ -57,6 +87,10 @@ const COMMON_LOCATIONS = {
 
 /**
  * Geocodes an address or city string to coordinates [lat, lon]
+ * Uses a 3-tier resolution strategy:
+ * 1. Coordinates check & built-in high-accuracy dictionary (instant response)
+ * 2. Primary Photon Geocoding API with robust URL handling
+ * 3. Fallback OpenStreetMap Nominatim Geocoding API
  */
 export async function geocodeLocation(query) {
   if (!query || !query.trim()) {
@@ -75,28 +109,31 @@ export async function geocodeLocation(query) {
     }
   }
 
-  // 2. Check in-memory common locations dictionary
+  // 2. Check in-memory common locations dictionary (exact match)
   if (COMMON_LOCATIONS[cleanQuery]) {
     return COMMON_LOCATIONS[cleanQuery]
   }
 
-  // Check partial key matches in common locations
+  // Check prefix / partial key matches in common locations
   for (const [key, loc] of Object.entries(COMMON_LOCATIONS)) {
-    if (cleanQuery.includes(key) || key.includes(cleanQuery)) {
+    if (cleanQuery.startsWith(key) || cleanQuery.includes(key)) {
       return loc
     }
   }
 
-  // 3. Query Photon Geocoding API
+  // 3. Query Primary Geocoding API (Photon with robust URL parsing)
   try {
-    const url = `${MAP_CONFIG.geocodingApi}?q=${encodeURIComponent(query.trim())}&limit=1`
-    const res = await fetch(url)
+    const rawBase = (MAP_CONFIG.geocodingApi || DEFAULT_GEOCODING_API).trim()
+    const cleanBase = rawBase.endsWith('/') ? rawBase : `${rawBase}/`
+    const photonUrl = `${cleanBase}?q=${encodeURIComponent(query.trim())}&limit=1`
+
+    const res = await fetch(photonUrl)
     if (res.ok) {
       const data = await res.json()
       if (data?.features?.length > 0) {
         const feature = data.features[0]
         const [lon, lat] = feature.geometry.coordinates
-        const props = feature.properties
+        const props = feature.properties || {}
         const name = [props.name, props.city, props.state, props.country]
           .filter(Boolean)
           .join(', ') || query.trim()
@@ -105,7 +142,28 @@ export async function geocodeLocation(query) {
       }
     }
   } catch (err) {
-    console.warn('Geocoding API network issue, attempting fallback:', err)
+    console.warn('Photon geocoding attempt warning:', err.message)
+  }
+
+  // 4. Secondary Fallback: OpenStreetMap Nominatim API
+  try {
+    const nominatimUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query.trim())}&limit=1`
+    const res = await fetch(nominatimUrl)
+    if (res.ok) {
+      const list = await res.json()
+      if (Array.isArray(list) && list.length > 0) {
+        const item = list[0]
+        const lat = parseFloat(item.lat)
+        const lon = parseFloat(item.lon)
+        const name = item.display_name || item.name || query.trim()
+
+        if (!isNaN(lat) && !isNaN(lon)) {
+          return { lat, lon, name }
+        }
+      }
+    }
+  } catch (err) {
+    console.warn('Nominatim fallback geocoding attempt warning:', err.message)
   }
 
   throw new Error(`Location "${query}" could not be found. Please check spelling or try another city.`)
